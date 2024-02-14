@@ -1,0 +1,150 @@
+fetch('http://localhost:6060/getcounts')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        setUserData(data);
+        setLoading(false);
+        counts = data.conexions;
+        console.log("🚀 ~ counts ~ counts:", counts)
+      })
+      .catch(error => {
+        console.error('Fetch error:', error);
+      });
+
+      [
+              {
+                label: "",
+                data:  ,
+                backgroundColor: [
+                  "rgba(43, 63, 229, 0.3)",
+                  "rgba(250, 192, 19, 0.8)",
+                  "rgba(253, 135, 135, 0.8)",
+                ],
+                borderRadius: 5,
+              },
+            ],
+
+ARMAR EL ARRAY COMPLETO
+
+
+    {
+            labels: element.module,
+            datasets: [
+              {
+                label: element.module,
+                  data:  element.last60secs,
+                  backgroundColor: [
+                    "rgba(43, 63, 229, 0.3)",
+                    "rgba(250, 192, 19, 0.8)",
+                    "rgba(253, 135, 135, 0.8)",
+                  ],
+                  borderRadius: 5,
+              },
+            ],
+          }
+
+          [
+    {
+        "module": "COLVENCOM",
+        "port": 3482,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 1
+    },
+    {
+        "module": "TRAX",
+        "port": 3574,
+        "protocol": "UDP",
+        "last10secs": 1,
+        "last60secs": 4
+    },
+    {
+        "module": "FMU125_TCP",
+        "port": 6659,
+        "protocol": "TCP",
+        "last10secs": 1547,
+        "last60secs": 1547
+    },
+    {
+        "module": "TRAX2",
+        "port": 3575,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 1
+    },
+    {
+        "module": "TRAX_MONSANTO",
+        "port": 5859,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 1
+    },
+    {
+        "module": "TRAX_LEDESMA",
+        "port": 5959,
+        "protocol": "UDP",
+        "last10secs": 1,
+        "last60secs": 1
+    },
+    {
+        "module": "TRAX_VITRAN",
+        "port": 5960,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    },
+    {
+        "module": "GESTYAR02",
+        "port": 3446,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    },
+    {
+        "module": "FMU125",
+        "port": 3447,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    },
+    {
+        "module": "TRAX_SMART",
+        "port": 3470,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    },
+    {
+        "module": "FMU125_V2",
+        "port": 3450,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    },
+    {
+        "module": "RINHO",
+        "port": 4200,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    },
+    {
+        "module": "GESTYAR02_3456",
+        "port": 3456,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    },
+    {
+        "module": "TRAX_3555",
+        "port": 3555,
+        "protocol": "UDP",
+        "last10secs": 0,
+        "last60secs": 0
+    }
+]
+

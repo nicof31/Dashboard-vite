@@ -1,0 +1,204 @@
+{
+    "labels": [
+        "COLVENCOM",
+        "TRAX",
+        "FMU125_TCP",
+        "TRAX2",
+        "TRAX_MONSANTO",
+        "TRAX_LEDESMA",
+        "TRAX_VITRAN",
+        "GESTYAR02",
+        "FMU125",
+        "TRAX_SMART",
+        "FMU125_V2",
+        "RINHO",
+        "GESTYAR02_3456",
+        "TRAX_3555"
+    ],
+    "datasets": [
+        {
+            "label": "COLVENCOM",
+            "data": [
+                4
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "TRAX",
+            "data": [
+                5
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "FMU125_TCP",
+            "data": [
+                1547
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "TRAX2",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "TRAX_MONSANTO",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "TRAX_LEDESMA",
+            "data": [
+                8
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "TRAX_VITRAN",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "GESTYAR02",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "FMU125",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "TRAX_SMART",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "FMU125_V2",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "RINHO",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "GESTYAR02_3456",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        },
+        {
+            "label": "TRAX_3555",
+            "data": [
+                0
+            ],
+            "backgroundColor": [
+                "rgba(43, 63, 229, 0.3)",
+                "rgba(250, 192, 19, 0.8)",
+                "rgba(253, 135, 135, 0.8)"
+            ],
+            "borderRadius": 5
+        }
+    ]
+}
+
+
+"rgba(123, 63, 229, 0.8)",
+"rgba(66, 217, 173, 0.8)",
+"rgba(242, 194, 59, 0.8)",
+"rgba(242, 99, 73, 0.8)",
+"rgba(53, 174, 217, 0.8)",
+"rgba(155, 127, 218, 0.8)",
+"rgba(101, 226, 214, 0.8)",
+"rgba(246, 166, 201, 0.8)",
+"rgba(100, 212, 182, 0.8)",
+"rgba(251, 168, 162, 0.8)",
+"rgba(234, 127, 134, 0.8)",
+"rgba(227, 160, 221, 0.8)",
+"rgba(223, 129, 218, 0.8)",
+"rgba(168, 177, 227, 0.8)"

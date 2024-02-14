@@ -1,0 +1,198 @@
+.chart-last60secs {
+  height: 500px;
+}
+
+
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Corregir el valor de border-radius */
+  padding: 10px; /* Ajustar el espacio interno según sea necesario */
+  width: 160px;
+  height: auto; /* Permitir que la altura se ajuste según el contenido */
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Opcional: Agregar una sombra sutil */
+}
+
+
+.chart-label {
+  font-weight: bold;
+  font-size: 1em;
+  color: #333; /* Adjust color as needed */
+  padding-left: 10px;
+}
+
+.chart-port {
+  font-weight: bold;
+  font-size: 1em;
+  color: #555; /* Adjust color as needed */
+  padding-left: 10px;
+}
+
+.chart-data {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #777; /* Adjust color as needed */
+  padding-left: 10px;
+}
+
+
+body{
+  margin-top:10px;
+  background:black;
+}
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 2px 5px 5px 10px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+#status-card {
+
+  width: 200px;
+  height: auto; /* Permitir que la altura se ajuste según el contenido */
+  margin: 5px;
+
+}
+
+.Api-Status {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around;*/
+  margin: 5px;
+
+}
+
+
+#status-card-modulos {
+  width: 170px;
+  height: auto; /* Permitir que la altura se ajuste según el contenido */
+  margin: 5px;
+  padding: 0.5px;
+
+}
+
+
+/* App.css or inline styles in App.jsx */
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around;*/
+  margin: 5px;
+  width: 50%;  /*comentar si quiero que se ajusten las card a la pantalla con esto se agrupan de a 4*/
+  justify-content: flex-start; /*comentar si quiero que se ajusten las card a la pantalla con esto se agrupan de a 4 a la izquierda*/
+  
+}
+
+
+
+#text-card-status {
+  padding: 0%;
+}
+
+
+.dashboard-chart-container {
+  display: flex;
+}
+
+.dashboard-chart-container > * {
+  flex: 1;
+  margin-right: 10px; /* Espacio entre Dashboard y BarChart */
+}
+
+.dashboard-chart-container > *:last-child {
+  margin-right: 0; /* Eliminar el margen derecho del último elemento */
+}
+
+/*  ---- */
+
+.dashboard-chart-container-grafico {
+  display: flex;
+}
+
+.dashboard-chart-container-grafico > * {
+  margin-right: 200px; /* Espacio entre Dashboard y BarChart */
+}
+
+.dashboard-chart-container-grafico > *:last-child {
+  margin-right: 0px; /* Eliminar el margen derecho del último elemento */
+}
+
+
+.centered-chart-container {
+  display: flex;
+  width: 100%; /* Ajusta el ancho del contenedor principal */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.centered-chart-content {
+  width: 45%; /* Ajusta el ancho de cada gráfico al 45% */
+  margin-right: 5%; /* Espacio entre los gráficos */
+}
+
+.centered-chart-content-piechart {
+  width: 25%; /* Ancho del PieChart */
+  justify-content: center;
+}
+
+.centered-chart-content-trend {
+  width: 90%; /* Ancho del TrendChart */
+}
+
+
+
+.card-container {
+  display: flex;
+}
+
+.ApiStatusCard,
+.EqStatusCard {
+  flex: 1;
+  margin-right: 30px; /* Espacio entre las tarjetas */
+}
+
+.ApiStatusCard:last-child,
+.EqStatusCard:last-child {
+  margin-right: 10; /* Eliminar el margen derecho del último elemento */
+}
